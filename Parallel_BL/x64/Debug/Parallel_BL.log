@@ -1,0 +1,753 @@
+﻿Build started 5/1/2016 8:59:25 PM.
+     1>Project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" on node 2 (Build target(s)).
+     1>Building with tools version "4.0".
+     1>Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (entry point):
+       Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+       Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+       Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Message"
+         Configuration=Debug
+       Done executing task "Message".
+       Task "Message"
+         Platform=x64
+       Done executing task "Message".
+       Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\' != '' and !HasTrailingSlash('C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\')).
+       Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+       Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('x64\Debug\' != '' and !HasTrailingSlash('x64\Debug\')).
+     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "Parallel_BL.vcxproj".
+     1>Target "_PrepareForBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "Build" depends on it):
+       Task "CreateItem" skipped, due to false condition; ('%(CustomBuild.IncludeFileToTool)'!='') was evaluated as (''!='').
+     1>Done building target "_PrepareForBuild" in project "Parallel_BL.vcxproj".
+     1>Target "_PrepareForReferenceResolution" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "ResolveReferences" depends on it):
+       Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+     1>Done building target "_PrepareForReferenceResolution" in project "Parallel_BL.vcxproj".
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as (''!='' and 'false'=='true' and '' != 'false').
+     1>Target "BeforeResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "ResolveReferences" depends on it):
+     1>Done building target "BeforeResolveReferences" in project "Parallel_BL.vcxproj".
+     1>Target "AssignProjectConfiguration" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "ResolveReferences" depends on it):
+       Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignProjectConfiguration"
+       Done executing task "AssignProjectConfiguration".
+     1>Done building target "AssignProjectConfiguration" in project "Parallel_BL.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+     1>Target "_SplitProjectReferencesByFileExistence" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "ResolveProjectReferences" depends on it):
+       Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+     1>Done building target "_SplitProjectReferencesByFileExistence" in project "Parallel_BL.vcxproj".
+       Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+     1>Target "ResolveProjectReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "ResolveReferences" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '11.0' != '10.0' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '11.0' == '10.0' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+       Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+     1>Done building target "ResolveProjectReferences" in project "Parallel_BL.vcxproj".
+       Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+       Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+     1>Target "GetFrameworkPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+     1>Done building target "GetFrameworkPaths" in project "Parallel_BL.vcxproj".
+       Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+     1>Target "GetReferenceAssemblyPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+     1>Done building target "GetReferenceAssemblyPaths" in project "Parallel_BL.vcxproj".
+     1>Target "SetBuildDefaultEnvironmentVariables" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "PrepareForBuild" depends on it):
+       Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "SetEnv"
+         PATH=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.0\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;;C:\Program Files\ImageMagick-6.9.3-Q16;C:\opencv\build\x64\vc11\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Dell\DW WLAN Card;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files\WIDCOMM\Bluetooth Software\;c:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Android;C:\Windows\System32;C:\Program Files\doxygen\bin;C:\Program Files (x86)\CMake\bin;
+       Done executing task "SetEnv".
+       Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+       Task "SetEnv"
+         LIB=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64;C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64;;
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib\amd64;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64;
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;;
+       Done executing task "SetEnv".
+     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "Parallel_BL.vcxproj".
+       Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+     1>Target "GetResolvedWinMD" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "PrepareForBuild" depends on it):
+     1>Done building target "GetResolvedWinMD" in project "Parallel_BL.vcxproj".
+     1>Target "PlatformPrepareForBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "PrepareForBuild" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ToolsetTargetsFound)' != 'true' and '$(PlatformToolset)' == 'v100') was evaluated as (''!='true' and 'true' != 'true' and 'v110' == 'v100').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ToolsetTargetsFound)' != 'true' and '$(PlatformToolset)' == 'v90') was evaluated as (''!='true' and 'true' != 'true' and 'v110' == 'v90').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ToolsetTargetsFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100') was evaluated as (''!='true' and 'true' != 'true' and 'v110' != 'v90' and 'v110' != 'v100').
+     1>Done building target "PlatformPrepareForBuild" in project "Parallel_BL.vcxproj".
+       Target "GetFrameworkPaths" skipped. Previously built successfully.
+       Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+     1>Target "PrepareForBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+       Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "MakeDir"
+       Done executing task "MakeDir".
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary') was evaluated as (''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\'=='' and '' != 'true' and 'v110'=='v90').
+       Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\'=='' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Windows Kits\8.0\'=='' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+       Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+       Task "VCMessage" skipped, due to false condition; ('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true') was evaluated as ('' != '' and ''!='true').
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "PrepareForBuild" in project "Parallel_BL.vcxproj".
+       Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as (''!='' and 'false'=='true' and '' != 'false').
+     1>Target "GetInstalledSDKLocations" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "ResolveSDKReferences" depends on it):
+       Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+     1>Done building target "GetInstalledSDKLocations" in project "Parallel_BL.vcxproj".
+     1>Target "ResolveSDKReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+     1>Done building target "ResolveSDKReferences" in project "Parallel_BL.vcxproj".
+       Target "ResolveSDKReferences" skipped. Previously built successfully.
+     1>Target "ExpandSDKReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+     1>Done building target "ExpandSDKReferences" in project "Parallel_BL.vcxproj".
+       Target "FakesGenerateBeforeBuild" skipped, due to false condition; (@(Fakes) != '' AND $(BuildingProject)) was evaluated as ( != '' AND true).
+     1>Target "ResolveAssemblyReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "ResolveReferences" depends on it):
+       Task "ResolveAssemblyReference" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
+     1>Done building target "ResolveAssemblyReferences" in project "Parallel_BL.vcxproj".
+       Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+     1>Target "AfterResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "ResolveReferences" depends on it):
+     1>Done building target "AfterResolveReferences" in project "Parallel_BL.vcxproj".
+       Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+       Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+     1>Target "ResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "Build" depends on it):
+     1>Done building target "ResolveReferences" in project "Parallel_BL.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "PrepareForBuild" skipped. Previously built successfully.
+     1>Target "InitializeBuildStatus" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "Build" depends on it):
+       Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "ReadLinesFromFile"
+       Done executing task "ReadLinesFromFile".
+       Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "WriteLinesToFile"
+       Done executing task "WriteLinesToFile".
+       Using "Touch" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Touch"
+         Creating "x64\Debug\Parallel_BL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       Done executing task "Touch".
+     1>Done building target "InitializeBuildStatus" in project "Parallel_BL.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "BuildGenerateSourcesTraverse" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "BuildGenerateSources" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+     1>Done building target "BuildGenerateSourcesTraverse" in project "Parallel_BL.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "BeforeBuildGenerateSources" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "BeforeBuildGenerateSources" in project "Parallel_BL.vcxproj".
+     1>Target "PreBuildEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PreBuildEvent" in project "Parallel_BL.vcxproj".
+       Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+       Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+       Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+     1>Target "_SelectedFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "CudaBuild" depends on it):
+     1>Done building target "_SelectedFiles" in project "Parallel_BL.vcxproj".
+       Target "CudaFilterSelectedFiles" skipped, due to false condition; ('@(SelectedFiles)' != '') was evaluated as ('' != '').
+     1>Target "InitializeCudaHostProperties" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\CUDA 7.5.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "AddCudaCompileMetadata" depends on it):
+     1>Done building target "InitializeCudaHostProperties" in project "Parallel_BL.vcxproj".
+     1>Target "AddCudaCompileMetadata" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\CUDA 7.5.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "CudaBuild" depends on it):
+       Building target "AddCudaCompileMetadata" completely.
+       No input files were specified.
+       Using "SanitizePaths" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\Nvda.Build.CudaTasks.v7.5.dll".
+       Task "SanitizePaths"
+       Done executing task "SanitizePaths".
+       Task "ReadLinesFromFile"
+       Done executing task "ReadLinesFromFile".
+       Using "SplitToItemMetadata" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\Nvda.Build.CudaTasks.v7.5.dll".
+       Task "SplitToItemMetadata"
+       Done executing task "SplitToItemMetadata".
+     1>Done building target "AddCudaCompileMetadata" in project "Parallel_BL.vcxproj".
+       Target "AddCudaCompileMetadata" skipped. Previously built successfully.
+       Target "InitializeCudaHostProperties" skipped. Previously built successfully.
+       Target "AddCudaCompileMetadata" skipped. Previously built successfully.
+     1>Target "InitializeCudaProjectProperties" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\CUDA 7.5.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "AddCudaLinkMetadata" depends on it):
+       Task "SplitToItemMetadata"
+       Done executing task "SplitToItemMetadata".
+     1>Done building target "InitializeCudaProjectProperties" in project "Parallel_BL.vcxproj".
+     1>Target "AddCudaLinkMetadata" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\CUDA 7.5.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "CudaBuild" depends on it):
+       Building target "AddCudaLinkMetadata" completely.
+       No input files were specified.
+       Using "ResolvePaths" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\Nvda.Build.CudaTasks.v7.5.dll".
+       Task "ResolvePaths"
+       Done executing task "ResolvePaths".
+     1>Done building target "AddCudaLinkMetadata" in project "Parallel_BL.vcxproj".
+       Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+       Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "AddCudaCompileMetadata" skipped. Previously built successfully.
+     1>Target "AddCudaCompileDeps" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\CUDA 7.5.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "CudaBuild" depends on it):
+       Building target "AddCudaCompileDeps" completely.
+       Input file "kernel.cu" is newer than output file "x64\Debug\kernel.cu.deps".
+       Using "GenerateDeps" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\Nvda.Build.CudaTasks.v7.5.dll".
+       Task "GenerateDeps"
+         Command:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Users\Akash\Documents\Visual Studio 2012\Projects\common\inc" /I"C:\Users\Akash\Documents\Visual Studio 2012\Projects\common\inc" /IC:\opencv\build\include /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\kernel.cu" 
+         The "GenerateDeps" task is using "cl.exe" from "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe".
+       Done executing task "GenerateDeps".
+       Task "MakeDir"
+       Done executing task "MakeDir".
+       Task "WriteLinesToFile"
+       Done executing task "WriteLinesToFile".
+     1>Done building target "AddCudaCompileDeps" in project "Parallel_BL.vcxproj".
+       Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+       Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "AddCudaCompileMetadata" skipped. Previously built successfully.
+     1>Target "AddCudaCompilePropsDeps" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\CUDA 7.5.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "CudaBuild" depends on it):
+       Building target "AddCudaCompilePropsDeps" completely.
+       Input file "Parallel_BL.vcxproj" is newer than output file "x64\Debug\kernel.cu.cache".
+       Task "ReadLinesFromFile"
+       Done executing task "ReadLinesFromFile".
+       Using "XmlPeek" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "XmlPeek"
+         Found "CudaToolkitCustomDir".
+         Found "AdditionalDeps".
+         Found "CompileOut".
+         Found "Include".
+         Found "UseHostInclude".
+         Found "Keep".
+         Found "KeepDir".
+         Found "GenerateRelocatableDeviceCode".
+         Found "NvccCompilation".
+         Found "CudaRuntime".
+         Found "NvccPath".
+         Found "RequiredIncludes".
+         Found "TargetMachinePlatform".
+         Found "InterleaveSourceInPTX".
+         Found "CodeGeneration".
+         Found "GPUDebugInfo".
+         Found "GenerateLineInfo".
+         Found "MaxRegCount".
+         Found "PtxAsOptionV".
+         Found "AdditionalCompilerOptions".
+         Found "Defines".
+         Found "UseHostDefines".
+         Found "Emulation".
+         Found "HostDebugInfo".
+         Found "FastMath".
+         Found "Optimization".
+         Found "Runtime".
+         Found "RuntimeChecks".
+         Found "TypeInfo".
+         Found "Warning".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+         Found "PerformDeviceLink".
+         Found "LinkOut".
+         Found "AdditionalLibraryDirectories".
+         Found "UseHostLibraryDirectories".
+         Found "AdditionalDependencies".
+         Found "UseHostLibraryDependencies".
+         Found "GPUDebugInfo".
+         Found "Optimization".
+         Found "CodeGeneration".
+         Found "TargetMachinePlatform".
+         Found "Warning".
+         Found "RuntimeChecks".
+         Found "Runtime".
+         Found "TypeInfo".
+         Found "AdditionalCompilerOptions".
+         Found "Inputs".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+       Done executing task "XmlPeek".
+       Using "ReadMetadataLinesFromItems" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\Nvda.Build.CudaTasks.v7.5.dll".
+       Task "ReadMetadataLinesFromItems"
+       Done executing task "ReadMetadataLinesFromItems".
+       Task "WriteLinesToFile"
+       Done executing task "WriteLinesToFile".
+     1>Done building target "AddCudaCompilePropsDeps" in project "Parallel_BL.vcxproj".
+     1>Target "ValidateCudaBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\CUDA 7.5.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "CudaBuild" depends on it):
+       Task "Error" skipped, due to false condition; ('$(PlatformToolset)' == 'v140') was evaluated as ('v110' == 'v140').
+       Task "Error" skipped, due to false condition; (!Exists($(CudaToolkitDir))) was evaluated as (!Exists(C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\)).
+     1>Done building target "ValidateCudaBuild" in project "Parallel_BL.vcxproj".
+     1>Target "ValidateCudaCodeGeneration" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\CUDA 7.5.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "CudaBuild" depends on it):
+       Building target "ValidateCudaCodeGeneration" completely.
+       No input files were specified.
+       Using "CountItems" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\Nvda.Build.CudaTasks.v7.5.dll".
+       Task "CountItems"
+       Done executing task "CountItems".
+       Task "Error" skipped, due to false condition; ('%(CudaCompile.NvccCompilation)' != 'compile' AND $(ValidateCudaCodeGenerationCount) > 1) was evaluated as ('compile' != 'compile' AND 1 > 1).
+     1>Done building target "ValidateCudaCodeGeneration" in project "Parallel_BL.vcxproj".
+     1>Target "ComputeCudaCompileOutput" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\CUDA 7.5.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "CudaBuild" depends on it):
+       Building target "ComputeCudaCompileOutput" completely.
+       No input files were specified.
+     1>Done building target "ComputeCudaCompileOutput" in project "Parallel_BL.vcxproj".
+     1>Target "PrepareForCudaBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\CUDA 7.5.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "CudaBuild" depends on it):
+       Task "SanitizePaths"
+       Done executing task "SanitizePaths".
+       Using "CudaSetEnvironmentVariable" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\Nvda.Build.CudaTasks.v7.5.dll".
+       Task "CudaSetEnvironmentVariable"
+         Nvda.Build.CudaTasks.CudaSetEnvironmentVariable: Setting 'CUDAFE_FLAGS' to '--sdk_dir "C:\Program Files (x86)\Windows Kits\8.0"'
+       Done executing task "CudaSetEnvironmentVariable".
+     1>Done building target "PrepareForCudaBuild" in project "Parallel_BL.vcxproj".
+     1>Target "CudaBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\CUDA 7.5.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+       Building target "CudaBuild" completely.
+       Input file "kernel.cu" is newer than output file "x64\Debug\kernel.cu.obj".
+       Task "Message"
+         Compiling CUDA source file kernel.cu...
+       Done executing task "Message".
+       Task "Message" skipped, due to false condition; ('%(CudaCompile.ExcludedFromBuild)' == 'true') was evaluated as ('' == 'true').
+       Task "MakeDir" skipped, due to false condition; (!Exists('$(CompileOutDir)')) was evaluated as (!Exists('C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\x64\Debug')).
+       Task "MakeDir" skipped, due to false condition; ('%(CudaCompile.Keep)' == 'true' AND !Exists('%(CudaCompile.KeepDir)')) was evaluated as ('false' == 'true' AND !Exists('x64\Debug')).
+       Initializing task factory "XamlTaskFactory" from assembly "Microsoft.Build.Tasks.v4.0".
+       Using "CudaCompile" task from the task factory "XamlTaskFactory".
+       Task "CudaCompile"
+         cmd.exe /C "C:\Users\Akash\AppData\Local\Temp\tmp11aed67f46c04e3e9061e52ebcaec90b.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64"  -I"C:\Users\Akash\Documents\Visual Studio 2012\Projects\common\inc" -I"C:\Users\Akash\Documents\Visual Studio 2012\Projects\common\inc" -IC:\opencv\build\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\kernel.cu"
+         
+         C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64"  -I"C:\Users\Akash\Documents\Visual Studio 2012\Projects\common\inc" -I"C:\Users\Akash\Documents\Visual Studio 2012\Projects\common\inc" -IC:\opencv\build\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\kernel.cu" 
+     1>C:\opencv\build\include\opencv2/ml/ml.hpp(955): warning : overloaded virtual function "CvDTree::train" is only partially overridden in class "CvForestTree"
+         
+     1>C:\opencv\build\include\opencv2/ml/ml.hpp(1143): warning : overloaded virtual function "CvDTree::train" is only partially overridden in class "CvBoostTree"
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(66): warning : variable "curr_pix" was declared but never referenced
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(67): warning : variable "channels" was declared but never referenced
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(76): warning : variable "l" was declared but never referenced
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(87): warning : variable "ker_sum" was declared but never referenced
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(126): warning : variable "start" was set but never used
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(127): warning : variable "end" was set but never used
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(128): warning : variable "cpu_time_used" was declared but never referenced
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(46): warning : variable "KR" was declared but never referenced
+         
+     1>C:\opencv\build\include\opencv2/core/affine.hpp(282): warning : controlling expression is constant
+         
+     1>C:\opencv\build\include\opencv2/ml/ml.hpp(955): warning : overloaded virtual function "CvDTree::train" is only partially overridden in class "CvForestTree"
+         
+     1>C:\opencv\build\include\opencv2/ml/ml.hpp(1143): warning : overloaded virtual function "CvDTree::train" is only partially overridden in class "CvBoostTree"
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(66): warning : variable "curr_pix" was declared but never referenced
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(67): warning : variable "channels" was declared but never referenced
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(76): warning : variable "l" was declared but never referenced
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(87): warning : variable "ker_sum" was declared but never referenced
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(126): warning : variable "start" was set but never used
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(127): warning : variable "end" was set but never used
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(128): warning : variable "cpu_time_used" was declared but never referenced
+         
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(46): warning : variable "KR" was declared but never referenced
+         
+         kernel.cu
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(147): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:/Users/Akash/Documents/Visual Studio 2012/Projects/Parallel_BL/Parallel_BL/kernel.cu(128): warning C4101: 'cpu_time_used' : unreferenced local variable
+       Done executing task "CudaCompile".
+       Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Delete"
+       Done executing task "Delete".
+     1>Done building target "CudaBuild" in project "Parallel_BL.vcxproj".
+       Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+     1>Target "_Xsd" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "_Xsd" in project "Parallel_BL.vcxproj".
+     1>Target "MakeDirsForMidl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Midl" depends on it):
+       Task "Makedir"
+       Done executing task "Makedir".
+     1>Done building target "MakeDirsForMidl" in project "Parallel_BL.vcxproj".
+       Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+       Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+       Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+     1>Target "ComputeMIDLGeneratedCompileInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Midl" depends on it):
+     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "Parallel_BL.vcxproj".
+     1>Target "AfterMidl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Midl" depends on it):
+     1>Done building target "AfterMidl" in project "Parallel_BL.vcxproj".
+     1>Target "_Midl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "_Midl" in project "Parallel_BL.vcxproj".
+     1>Target "AfterBuildGenerateSources" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "AfterBuildGenerateSources" in project "Parallel_BL.vcxproj".
+     1>Target "AfterBuildGenerateSourcesEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "AfterBuildGenerateSourcesEvent" in project "Parallel_BL.vcxproj".
+     1>Target "_BuildGenerateSourcesAction" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "BuildGenerateSources" depends on it):
+     1>Done building target "_BuildGenerateSourcesAction" in project "Parallel_BL.vcxproj".
+     1>Target "BuildGenerateSources" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildGenerateSources" in project "Parallel_BL.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "BuildCompileTraverse" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "BuildCompile" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+     1>Done building target "BuildCompileTraverse" in project "Parallel_BL.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "BeforeClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "BeforeClCompile" in project "Parallel_BL.vcxproj".
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+     1>Target "ComputeCLInputPDBName" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "ComputeCLInputPDBName" in project "Parallel_BL.vcxproj".
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ComputeReferenceCLInput" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_ClCompile" depends on it):
+       Task "WriteLinesToFile" skipped, due to false condition; (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') was evaluated as ((''!='') and '' != 'true').
+       Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+     1>Done building target "ComputeReferenceCLInput" in project "Parallel_BL.vcxproj".
+     1>Target "MakeDirsForCl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_ClCompile" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForCl" in project "Parallel_BL.vcxproj".
+       Target "ClCompile" skipped, due to false condition; ('@(ClCompile)' != '') was evaluated as ('' != '').
+       Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+       Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('' != '' and 'false' == 'True').
+       Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('' != '' and 'false' == 'True').
+     1>Target "AfterClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "AfterClCompile" in project "Parallel_BL.vcxproj".
+     1>Target "_ClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "_ClCompile" in project "Parallel_BL.vcxproj".
+       Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+     1>Target "BeforeResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_ResourceCompile" depends on it):
+     1>Done building target "BeforeResourceCompile" in project "Parallel_BL.vcxproj".
+     1>Target "MakeDirsForResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_ResourceCompile" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForResourceCompile" in project "Parallel_BL.vcxproj".
+       Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+     1>Target "AfterResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_ResourceCompile" depends on it):
+     1>Done building target "AfterResourceCompile" in project "Parallel_BL.vcxproj".
+     1>Target "_ResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "_ResourceCompile" in project "Parallel_BL.vcxproj".
+       Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+       Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
+     1>Target "AfterBuildCompileEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "AfterBuildCompileEvent" in project "Parallel_BL.vcxproj".
+     1>Target "_BuildCompileAction" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "BuildCompile" depends on it):
+     1>Done building target "_BuildCompileAction" in project "Parallel_BL.vcxproj".
+     1>Target "BuildCompile" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildCompile" in project "Parallel_BL.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "BuildLinkTraverse" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "BuildLink" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+     1>Done building target "BuildLinkTraverse" in project "Parallel_BL.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ComputeLegacyManifestEmbedding" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true') was evaluated as ('' == 'true' and '' == 'true').
+     1>Done building target "ComputeLegacyManifestEmbedding" in project "Parallel_BL.vcxproj".
+     1>Target "BeforeLink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Link" depends on it):
+     1>Done building target "BeforeLink" in project "Parallel_BL.vcxproj".
+     1>Target "ComputeRCOutputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+     1>Done building target "ComputeRCOutputs" in project "Parallel_BL.vcxproj".
+     1>Target "ComputeRCGeneratedLinkInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeRCGeneratedLinkInputs" in project "Parallel_BL.vcxproj".
+     1>Target "ComputeManifestGeneratedLinkerInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "Parallel_BL.vcxproj".
+     1>Target "ComputeCustomBuildOutput" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Link" depends on it):
+       Task "CreateItem" skipped, due to false condition; ('%(CustomBuildDirsToMake.OutputFileToTool)'!='') was evaluated as (''!='').
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "ComputeCustomBuildOutput" in project "Parallel_BL.vcxproj".
+       Target "ComputeCLOutputs" skipped, due to false condition; ('@(ClCompile)' != '') was evaluated as ('' != '').
+     1>Target "ComputeCLGeneratedLinkInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeCLGeneratedLinkInputs" in project "Parallel_BL.vcxproj".
+     1>Target "ComputeLinkInputsFromProject" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeLinkInputsFromProject" in project "Parallel_BL.vcxproj".
+       Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+       Target "ComputeCudaCompileOutput" skipped. Previously built successfully.
+     1>Target "ComputeManifestInputsTargets" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeManifestInputsTargets" in project "Parallel_BL.vcxproj".
+       Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') was evaluated as ('LINK' == 'LINK' and '' != '').
+       Target "CudaLink" skipped, due to false condition; ('@(CudaLink)' != '') was evaluated as ('' != '').
+       Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+     1>Target "AssignTargetPaths" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "PrepareResourceNames" depends on it):
+       Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+     1>Done building target "AssignTargetPaths" in project "Parallel_BL.vcxproj".
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+     1>Target "SplitResourcesByCulture" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "PrepareResourceNames" depends on it):
+       Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+       Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignCulture"
+       Done executing task "AssignCulture".
+     1>Done building target "SplitResourcesByCulture" in project "Parallel_BL.vcxproj".
+       Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+     1>Target "CreateCustomManifestResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "PrepareResourceNames" depends on it):
+     1>Done building target "CreateCustomManifestResourceNames" in project "Parallel_BL.vcxproj".
+     1>Target "PrepareResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Link" depends on it):
+     1>Done building target "PrepareResourceNames" in project "Parallel_BL.vcxproj".
+     1>Target "MakeDirsForLink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Link" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForLink" in project "Parallel_BL.vcxproj".
+     1>Target "DoLinkOutputFilesMatch" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Link" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' == '') was evaluated as ('C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\Parallel_BL.exe' == '').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\Parallel_BL.exe' != '' and 'C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\Parallel_BL.exe' != 'C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\Parallel_BL.exe').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\Parallel_BL.exe' != '' and '.exe' != '.exe').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\Parallel_BL.exe' != '' and 'Parallel_BL' != 'Parallel_BL').
+     1>Done building target "DoLinkOutputFilesMatch" in project "Parallel_BL.vcxproj".
+     1>Target "PreLinkEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Link" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PreLinkEvent" in project "Parallel_BL.vcxproj".
+     1>Target "ComputeLinkSwitches" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "Link" depends on it):
+     1>Done building target "ComputeLinkSwitches" in project "Parallel_BL.vcxproj".
+       Target "CudaLink" skipped, due to false condition; ('@(CudaLink)' != '') was evaluated as ('' != '').
+     1>Target "Link" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Link" depends on it):
+       Using "Link" task from assembly "Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Link"
+         Write Tracking Logs:
+         	x64\Debug\link.write.1.tlog
+         	x64\Debug\link.10364-cvtres.write.1.tlog
+         	x64\Debug\link.10364-rc.write.1.tlog
+         	x64\Debug\link.10364.write.1.tlog
+         	x64\Debug\link.10452-cvtres.write.1.tlog
+         	x64\Debug\link.10452-rc.write.1.tlog
+         	x64\Debug\link.10452.write.1.tlog
+         	x64\Debug\link.11152-cvtres.write.1.tlog
+         	x64\Debug\link.11152-rc.write.1.tlog
+         	x64\Debug\link.11152.write.1.tlog
+         	x64\Debug\link.2644-cvtres.write.1.tlog
+         	x64\Debug\link.2644-rc.write.1.tlog
+         	x64\Debug\link.2644.write.1.tlog
+         	x64\Debug\link.2680-cvtres.write.1.tlog
+         	x64\Debug\link.2680-rc.write.1.tlog
+         	x64\Debug\link.2680.write.1.tlog
+         	x64\Debug\link.5680-cvtres.write.1.tlog
+         	x64\Debug\link.5680-rc.write.1.tlog
+         	x64\Debug\link.5680.write.1.tlog
+         	x64\Debug\link-cvtres.write.1.tlog
+         	x64\Debug\link.10364-cvtres.write.1.tlog
+         	x64\Debug\link.10452-cvtres.write.1.tlog
+         	x64\Debug\link.11152-cvtres.write.1.tlog
+         	x64\Debug\link.2644-cvtres.write.1.tlog
+         	x64\Debug\link.2680-cvtres.write.1.tlog
+         	x64\Debug\link.5680-cvtres.write.1.tlog
+         	x64\Debug\link-cvtres.write.1.tlog
+         	x64\Debug\link-rc.write.1.tlog
+         Read Tracking Logs:
+         	x64\Debug\link.read.1.tlog
+         	x64\Debug\link.10364-cvtres.read.1.tlog
+         	x64\Debug\link.10364-rc.read.1.tlog
+         	x64\Debug\link.10364.read.1.tlog
+         	x64\Debug\link.10452-cvtres.read.1.tlog
+         	x64\Debug\link.10452-rc.read.1.tlog
+         	x64\Debug\link.10452.read.1.tlog
+         	x64\Debug\link.11152-cvtres.read.1.tlog
+         	x64\Debug\link.11152-rc.read.1.tlog
+         	x64\Debug\link.11152.read.1.tlog
+         	x64\Debug\link.2644-cvtres.read.1.tlog
+         	x64\Debug\link.2644-rc.read.1.tlog
+         	x64\Debug\link.2644.read.1.tlog
+         	x64\Debug\link.2680-cvtres.read.1.tlog
+         	x64\Debug\link.2680-rc.read.1.tlog
+         	x64\Debug\link.2680.read.1.tlog
+         	x64\Debug\link.5680-cvtres.read.1.tlog
+         	x64\Debug\link.5680-rc.read.1.tlog
+         	x64\Debug\link.5680.read.1.tlog
+         	x64\Debug\link-cvtres.read.1.tlog
+         	x64\Debug\link.10364-cvtres.read.1.tlog
+         	x64\Debug\link.10452-cvtres.read.1.tlog
+         	x64\Debug\link.11152-cvtres.read.1.tlog
+         	x64\Debug\link.2644-cvtres.read.1.tlog
+         	x64\Debug\link.2680-cvtres.read.1.tlog
+         	x64\Debug\link.5680-cvtres.read.1.tlog
+         	x64\Debug\link-cvtres.read.1.tlog
+         	x64\Debug\link-rc.read.1.tlog
+         Outputs for C:\USERS\AKASH\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\PARALLEL_BL\PARALLEL_BL\X64\DEBUG\KERNEL.CU.OBJ:
+         	C:\USERS\AKASH\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\PARALLEL_BL\X64\DEBUG\PARALLEL_BL.ILK
+         	C:\USERS\AKASH\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\PARALLEL_BL\X64\DEBUG\PARALLEL_BL.EXE
+         	C:\USERS\AKASH\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\PARALLEL_BL\X64\DEBUG\PARALLEL_BL.PDB
+         Inputs for C:\USERS\AKASH\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\PARALLEL_BL\PARALLEL_BL\X64\DEBUG\KERNEL.CU.OBJ:
+         	C:\PROGRAM FILES\NVIDIA GPU COMPUTING TOOLKIT\CUDA\V7.5\LIB\X64\CUDART.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\LIB\WIN8\UM\X64\KERNEL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\LIB\WIN8\UM\X64\USER32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\LIB\WIN8\UM\X64\GDI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\LIB\WIN8\UM\X64\WINSPOOL.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\LIB\WIN8\UM\X64\COMDLG32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\LIB\WIN8\UM\X64\ADVAPI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\LIB\WIN8\UM\X64\SHELL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\LIB\WIN8\UM\X64\OLE32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\LIB\WIN8\UM\X64\OLEAUT32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\LIB\WIN8\UM\X64\UUID.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\LIB\WIN8\UM\X64\ODBC32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.0\LIB\WIN8\UM\X64\ODBCCP32.LIB
+         	C:\USERS\AKASH\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\COMMON\LIB\X64\FREEGLUT.LIB
+         	C:\USERS\AKASH\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\COMMON\LIB\X64\GLEW64.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_CALIB3D2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_CONTRIB2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_CORE2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_FEATURES2D2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_FLANN2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_GPU2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_OCL2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_HIGHGUI2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_IMGPROC2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_LEGACY2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_ML2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_NONFREE2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_OBJDETECT2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_PHOTO2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_STITCHING2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_SUPERRES2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_TS2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_VIDEO2412D.LIB
+         	C:\OPENCV\BUILD\X64\VC11\LIB\OPENCV_VIDEOSTAB2412D.LIB
+         	C:\USERS\AKASH\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\PARALLEL_BL\PARALLEL_BL\X64\DEBUG\KERNEL.CU.OBJ
+         	C:\WINDOWS\SYSTEM32\TZRES.DLL
+         	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\VC\LIB\AMD64\MSVCPRTD.LIB
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\VC\LIB\AMD64\MSVCRTD.LIB
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\VC\LIB\AMD64\OLDNAMES.LIB
+         Source compilation required: input C:\USERS\AKASH\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\PARALLEL_BL\PARALLEL_BL\X64\DEBUG\KERNEL.CU.OBJ is newer than output C:\USERS\AKASH\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\PARALLEL_BL\X64\DEBUG\PARALLEL_BL.EXE.
+         Forcing rebuild of all source files due to a change in the command line since the last build.
+         Environment Variables passed to tool:
+           VS_UNICODE_OUTPUT=924
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\Parallel_BL.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Akash\Documents\Visual Studio 2012\Projects\common\lib\x64" /LIBPATH:C:\opencv\build\x64\vc11\lib /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib freeglut.lib glew64.lib opencv_calib3d2412d.lib opencv_contrib2412d.lib opencv_core2412d.lib opencv_features2d2412d.lib opencv_flann2412d.lib opencv_gpu2412d.lib opencv_ocl2412d.lib opencv_highgui2412d.lib opencv_imgproc2412d.lib opencv_legacy2412d.lib opencv_ml2412d.lib opencv_nonfree2412d.lib opencv_objdetect2412d.lib opencv_photo2412d.lib opencv_stitching2412d.lib opencv_superres2412d.lib opencv_ts2412d.lib opencv_video2412d.lib opencv_videostab2412d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\Parallel_BL.pdb" /SUBSYSTEM:CONSOLE /STACK:"500000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\Parallel_BL.lib" /MACHINE:X64 x64\Debug\kernel.cu.obj
+         Tracking command:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /a /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\x64\Debug" /r "C:\USERS\AKASH\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\PARALLEL_BL\PARALLEL_BL\X64\DEBUG\KERNEL.CU.OBJ" /b MSBuildConsole_CancelEvent2bfa02e98f9e4887901d50c24673cc74  /c "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\Parallel_BL.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Akash\Documents\Visual Studio 2012\Projects\common\lib\x64" /LIBPATH:C:\opencv\build\x64\vc11\lib /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib freeglut.lib glew64.lib opencv_calib3d2412d.lib opencv_contrib2412d.lib opencv_core2412d.lib opencv_features2d2412d.lib opencv_flann2412d.lib opencv_gpu2412d.lib opencv_ocl2412d.lib opencv_highgui2412d.lib opencv_imgproc2412d.lib opencv_legacy2412d.lib opencv_ml2412d.lib opencv_nonfree2412d.lib opencv_objdetect2412d.lib opencv_photo2412d.lib opencv_stitching2412d.lib opencv_superres2412d.lib opencv_ts2412d.lib opencv_video2412d.lib opencv_videostab2412d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\Parallel_BL.pdb" /SUBSYSTEM:CONSOLE /STACK:"500000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\Parallel_BL.lib" /MACHINE:X64 x64\Debug\kernel.cu.obj
+       Done executing task "Link".
+       Task "Message"
+         Parallel_BL.vcxproj -> C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\Parallel_BL.exe
+       Done executing task "Message".
+     1>Done building target "Link" in project "Parallel_BL.vcxproj".
+       Target "MetaGenInputsOutputs" skipped, due to false condition; ('$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('false' == 'True').
+       Target "ComputeMetaGenInputs" skipped, due to false condition; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false') was evaluated as ('false'!='' and 'false'!='false').
+       Target "MetaGen" skipped, due to false condition; ('@(MetaGen)' != '') was evaluated as ('' != '').
+     1>Target "ComputeLinkImportLibraryOutputsForClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Link" depends on it):
+       Task "WriteLinesToFile" skipped, due to false condition; ('@(_LinkImportLibrary)' != '') was evaluated as ('' != '').
+     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "Parallel_BL.vcxproj".
+     1>Target "AfterLink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_Link" depends on it):
+     1>Done building target "AfterLink" in project "Parallel_BL.vcxproj".
+     1>Target "_Link" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_Link" in project "Parallel_BL.vcxproj".
+     1>Target "_ALink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_ALink" in project "Parallel_BL.vcxproj".
+       Target "ComputeLegacyManifestEmbedding" skipped. Previously built successfully.
+     1>Target "_Manifest" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "CallTarget" skipped, due to false condition; ('$(LegacyManifestEmbedding)' == 'true') was evaluated as ('' == 'true').
+     1>Done building target "_Manifest" in project "Parallel_BL.vcxproj".
+       Target "RegisterOutput" skipped, due to false condition; ('$(EmbedManifest)'=='true' and '$(LinkSkippedExecution)' != 'true' and ('$(_IsNativeEnvironment)' == 'true' or '$(Platform)' == 'Win32')) was evaluated as ('true'=='true' and 'False' != 'true' and ('' == 'true' or 'x64' == 'Win32')).
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ResolvedXDCMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_XdcMake" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+     1>Done building target "ResolvedXDCMake" in project "Parallel_BL.vcxproj".
+     1>Target "ComputeCLCompileGeneratedXDCFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_XdcMake" depends on it):
+     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "Parallel_BL.vcxproj".
+     1>Target "MakeDirsForXdcMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_XdcMake" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForXdcMake" in project "Parallel_BL.vcxproj".
+       Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+     1>Target "_XdcMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_XdcMake" in project "Parallel_BL.vcxproj".
+     1>Target "ComputeCLCompileGeneratedSbrFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BscMake" depends on it):
+     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "Parallel_BL.vcxproj".
+     1>Target "MakeDirsForBscMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BscMake" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForBscMake" in project "Parallel_BL.vcxproj".
+       Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+       Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+     1>Target "_BscMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_BscMake" in project "Parallel_BL.vcxproj".
+       Target "RunMergeNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
+       Target "RunNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
+     1>Target "_GenerateSatelliteAssemblyInputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+       Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+       Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "Parallel_BL.vcxproj".
+       Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+       Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+     1>Target "CreateSatelliteAssemblies" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "CreateSatelliteAssemblies" in project "Parallel_BL.vcxproj".
+     1>Target "_Appverifier" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_Appverifier" in project "Parallel_BL.vcxproj".
+     1>Target "_Deploy" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_Deploy" in project "Parallel_BL.vcxproj".
+       Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+       Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "GetCopyToOutputDirectoryXamlAppDefs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "Parallel_BL.vcxproj".
+     1>Target "GetCopyToOutputDirectoryItems" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+     1>Done building target "GetCopyToOutputDirectoryItems" in project "Parallel_BL.vcxproj".
+       Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+       Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+     1>Target "_CopySourceItemsToOutputDirectory" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+     1>Done building target "_CopySourceItemsToOutputDirectory" in project "Parallel_BL.vcxproj".
+       Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+       Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+     1>Target "_CheckForCompileOutputs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+     1>Done building target "_CheckForCompileOutputs" in project "Parallel_BL.vcxproj".
+       Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+     1>Target "CopyFilesToOutputDirectory" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "PrepareForRun" depends on it):
+       Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+       Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+       Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+       Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+       Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+       Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+       Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+       Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+       Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+       Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+     1>Done building target "CopyFilesToOutputDirectory" in project "Parallel_BL.vcxproj".
+     1>Target "PrepareForRun" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "PrepareForRun" in project "Parallel_BL.vcxproj".
+       Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+     1>Target "PostBuildEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and 'echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\"
+       copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\"' != '').
+       Using "Exec" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Exec"
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\x64\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2 file(s) copied.
+       Done executing task "Exec".
+     1>Done building target "PostBuildEvent" in project "Parallel_BL.vcxproj".
+     1>Target "_BuildLinkAction" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "BuildLink" depends on it):
+     1>Done building target "_BuildLinkAction" in project "Parallel_BL.vcxproj".
+     1>Target "BuildLink" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildLink" in project "Parallel_BL.vcxproj".
+     1>Target "AfterBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "Build" depends on it):
+     1>Done building target "AfterBuild" in project "Parallel_BL.vcxproj".
+     1>Target "FinalizeBuildStatus" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (target "Build" depends on it):
+       Task "Delete"
+         Deleting file "x64\Debug\Parallel_BL.unsuccessfulbuild".
+       Done executing task "Delete".
+       Task "Touch"
+         Touching "x64\Debug\Parallel_BL.lastbuildstate".
+       Done executing task "Touch".
+     1>Done building target "FinalizeBuildStatus" in project "Parallel_BL.vcxproj".
+     1>Target "Build" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets" from project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (entry point):
+     1>Done building target "Build" in project "Parallel_BL.vcxproj".
+     1>Done Building Project "C:\Users\Akash\Documents\Visual Studio 2012\Projects\Parallel_BL\Parallel_BL\Parallel_BL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.05
